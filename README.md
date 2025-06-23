@@ -26,7 +26,7 @@ This project demonstrates how to perform **network port scanning** on a local ne
 
 ### 1. Identify IP Addresses
 
---> ip a    # To check your own IP
+--> ip a    # To check own IP
 
 ### 2.Run Nmap Scan
    
