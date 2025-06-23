@@ -1,0 +1,22 @@
+# Nmap 7.97SVN scan initiated Mon Jun 23 03:06:28 2025 as: nmap -sS -oN scan_results.txt 192.168.154.0/24
+Nmap scan report for _gateway (192.168.154.43)
+Host is up (0.0050s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+53/tcp open  domain
+MAC Address: 92:D5:08:4F:45:63 (Unknown)
+
+Nmap scan report for 192.168.154.152
+Host is up (0.000094s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 38:D5:7A:C3:9D:B1 (Cloud Network Technology Singapore PTE.)
+
+Nmap scan report for 192.168.154.160
+Host is up (0.000014s latency).
+All 1000 scanned ports on 192.168.154.160 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+# Nmap done at Mon Jun 23 03:06:32 2025 -- 256 IP addresses (3 hosts up) scanned in 3.38 seconds
