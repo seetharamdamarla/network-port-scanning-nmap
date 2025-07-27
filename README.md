@@ -1,4 +1,4 @@
-# 🛡️ CyberSecurity_Task1 - Network Scan using Nmap & Wireshark
+# 🛡️ Network Scan using Nmap & Wireshark
 
 This project demonstrates how to perform **network port scanning** on a local network using **Nmap**, and how to analyze the scan traffic using **Wireshark**. It was created as part of a cybersecurity internship task to develop hands-on skills in basic network reconnaissance.
 
@@ -25,41 +25,43 @@ This project demonstrates how to perform **network port scanning** on a local ne
 ## ⚙️ Steps Performed
 
 ### 1. Identify IP Addresses
-
---> ip a    # To check own IP
-
+``` bash
+ip a    # To check own IP
+``` 
 ### 2.Run Nmap Scan
-   
+``` bash
 sudo nmap -sS -oN scan_results.txt 192.168.154.0/24
+```
    
-  -sS → SYN scan (stealthy and fast)
-  -oN → Output saved to a human-readable file (scan_results.txt)
-   192.168.154.0/24 → Scans all hosts in the subnet
-
+  -sS → SYN scan (stealthy and fast) <br>
+  -oN → Output saved to a human-readable file (scan_results.txt) <br>
+   192.168.154.0/24 → Scans all hosts in the subnet <br>
+   
+``` bash
 sudo nmap -sV 192.168.154.0/24
-   
+```   
    -sV → Service and version detection  
 
 ### 3. Capture with Wireshark
-Used filters like: tcp.port == 80 or ip.addr == 192.168.154.160
+Used filters like: tcp.port == 80 or ip.addr == 192.168.154.160 <br>
 
 Analyze:
 
-  TCP handshakes 
-  SYN, SYN-ACK, RST patterns
-  Service banners from version detection
+  TCP handshakes <br>
+  SYN, SYN-ACK, RST patterns <br>
+  Service banners from version detection 
 
-📂 Output Files
-     scan_results.txt – Nmap scan output
-     packet_capture.pcap – Wireshark capture file
-     Screenshots – Evidence of scan and capture steps
+## 📂 Output Files 
+   scan_results.txt – Nmap scan output <br> 
+   packet_capture.pcap – Wireshark capture file <br>
+   Screenshots – Evidence of scan and capture steps
 
-📘 Learnings
-    Understood how Nmap communicates with hosts during different scan types
-    Gained experience with Wireshark filters and analysis
+## 📘 Learnings 
+   Understood how Nmap communicates with hosts during different scan types <br>
+   Gained experience with Wireshark filters and analysis
 
-✅ Conclusion
-This task provided foundational experience in performing ethical network scans and analyzing the resulting network traffic. These techniques are essential for roles in cybersecurity, penetration testing, and system auditing.
+## ✅ Conclusion
+   This task provided foundational experience in performing ethical network scans and analyzing the resulting network traffic. These techniques are essential for roles in cybersecurity,          penetration testing, and system auditing.
 
 ## 🔐 Disclaimer
 
