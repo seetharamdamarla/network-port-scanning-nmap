@@ -1,10 +1,10 @@
-# 🛡️ Network Scan using Nmap & Wireshark
+# Network Scan using Nmap & Wireshark
 
 This project demonstrates how to perform **network port scanning** on a local network using **Nmap**, and how to analyze the scan traffic using **Wireshark**. It was created as part of a cybersecurity internship task to develop hands-on skills in basic network reconnaissance.
 
 ---
 
-## 📌 Objectives
+## Objectives
 
 - Identify live hosts and open ports on a target machine
 - Understand Nmap scan types (SYN, TCP connect, version detection, etc.)
@@ -13,16 +13,16 @@ This project demonstrates how to perform **network port scanning** on a local ne
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
-- 🖥️ **Nmap** - For scanning networks and ports  
-- 🔎 **Wireshark** - For capturing and analyzing packet-level data  
-- 🐧 **Kali Linux / Ubuntu** - Operating system used in the lab environment  
-- 📡 **VirtualBox / VMware** - For setting up the test network (Kali + Metasploitable)
+-  **Nmap** - For scanning networks and ports  
+-  **Wireshark** - For capturing and analyzing packet-level data  
+-  **Kali Linux / Ubuntu** - Operating system used in the lab environment  
+-  **VirtualBox / VMware** - For setting up the test network (Kali + Metasploitable)
 
 ---
 
-## ⚙️ Steps Performed
+## Steps Performed
 
 ### 1. Identify IP Addresses
 ``` bash
@@ -51,21 +51,21 @@ Analyze:
   SYN, SYN-ACK, RST patterns <br>
   Service banners from version detection 
 
-## 📂 Output Files 
+## Output Files 
    scan_results.txt – Nmap scan output <br> 
    packet_capture.pcap – Wireshark capture file <br>
    Screenshots – Evidence of scan and capture steps
 
-## 📘 Learnings 
+## Learnings 
    Understood how Nmap communicates with hosts during different scan types <br>
    Gained experience with Wireshark filters and analysis
 
-## ✅ Conclusion
+## Conclusion
    This task provided foundational experience in performing ethical network scans and analyzing the resulting network traffic. These techniques are essential for roles in cybersecurity,          penetration testing, and system auditing.
 
-## 🔐 Disclaimer
+## Disclaimer
 
 This project was conducted in a **controlled lab environment** using authorized systems only.  
-⚠️ Do **not** use tools like Nmap or Wireshark on public or unauthorized networks.  
+Do **not** use tools like Nmap or Wireshark on public or unauthorized networks.  
 Always ensure you have **explicit permission** before performing any network scans or packet captures.
 
